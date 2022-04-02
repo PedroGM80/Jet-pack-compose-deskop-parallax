@@ -12,7 +12,8 @@ import androidx.compose.ui.input.key.*
 import androidx.compose.ui.unit.dp
 
 
-@OptIn(ExperimentalComposeUiApi::class)
+
+@ExperimentalComposeUiApi
 @Composable
 fun keyBoard(aCharacterData: CharacterData): Float {
 
